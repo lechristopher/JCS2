@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+
+    <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <script src="/semantic/dist/components/visibility.js"></script>
+    <script src="/semantic/dist/components/sidebar.js"></script>
+    <script src="/semantic/dist/components/transition.js"></script>
+</head>
+
+<body>
+
+    <h1>Jamison Computer Services</h1>
+
+    <!-- Page Contents -->
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui container">
+                <div class="ui large secondary inverted pointing menu">
+                    <a class="toc item">
+                  <i class="sidebar icon"></i>
+               </a>
+                    <a href="/" class="active item">Home</a>
+                    <a href="/about" class="item">About</a>
+                    <!-- <a href="/contact" class="item">Contact Us</a> -->
+
+                </div>
+            </div>
+            <!-- Contact Us Form -->
+            <div class="ui container">
+                <form action="/contact" class="ui form" method="POST">
+                    <div class="four wide fields">
+                        <div class="field">
+                            <label id="first_name">First Name</label>
+                            <input type="text" name="first_name" placeholder="First Name">
+                        </div>
+                        <div class="field">
+                            <label id="last_name">Last Name</label>
+                            <input type="text" name="last_name" placeholder="Last Name">
+                        </div>
+                        <div class="field">
+                            <label id="email">Email</label>
+                            <input type="text" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <!-- end of four wide fields -->
+
+                    <!-- Phone Number -->
+                    <div class="inline fields">
+                        <div class="three wide fields">
+                            <label>Phone Number</label>
+                            <div class="field">
+                                <input type="text" name="phone" placeholder="(xxx)-xxx-xxxx" id="phone1">
+                            </div>
+                            <!-- <div class="field">
+                        <input type="text" placeholder="xxx" id="phone2">
+                     </div>
+                     <div class="field">
+                        <input type="text" placeholder="xxxx" id="phone3">
+                     </div> -->
+                        </div>
+                        <!-- end of four wide fields -->
+                    </div>
+
+                    <!-- Message -->
+                    <div class="field">
+                        <label id="message">Message</label>
+                        <div class="sixteen wide fields">
+                            <textarea name="message"></textarea>
+                        </div>
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="ui blue login-submit button">Submit</div>
+                    <div class="ui reset button">Reset</div>
+                </form>
+                <!-- end of ui form -->
+            </div>
+            <!-- end of ui container -->
+
+            <!-- <div class="confirmed">
+              <h id="confirmation"> Thanks for the inquiry. We'll be in touch soon! <h>
+        </div> -->
+            <div class="ui page dimmer">
+                <div class="content">
+                    <div class="center">Hello</div>
+                </div>
+            </div>
+
+            <div class="ui inverted vertical footer segment">
+                <div class="ui container">
+                    <div class="ui stackable inverted divided equal height stackable grid">
+                        <div class="six wide column">
+                            <h4 class="ui inverted header">About</h4>
+                            <div class="ui inverted link list">
+                                <a href="/about" class="item">About</a>
+                                <a href="/contact" class="item">Contact Us</a>
+                            </div>
+                        </div>
+                         <!-- <div class="three wide column">
+                            <h4 class="ui inverted header"></h4>
+                            <div class="ui inverted link list">
+                            </div> 
+                        </div> -->
+                        <div class="nine wide column">
+                            <h3 class="ui inverted header">Find us on Social</h3>
+
+                            <a href="https://www.facebook.com/ComputerRepairSantaClarita/" class="ui facebook button"><i class="facebook icon"></i>Facebook</a>
+                            <a href="https://plus.google.com/107678983853979539182?gl=US&hl=en-US" class="ui google plus button"><i class="google plus icon"></i>Google Plus</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>

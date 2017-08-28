@@ -1,0 +1,34 @@
+{
+  "name": "jcs-project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jquery-smooth-scroll": "^2.2.0",
+    "mysql2": "^1.4.1",
+    "particles.js": "^2.0.0",
+    "path": "^0.12.7",
+    "semantic": "0.0.1",
+    "semantic-ui": "^2.2.13",
+    "semantic-ui-form": "^2.2.12",
+    "sequelize": "^4.5.0",
+    "ui": "^0.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kellenkjames/JCS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kellenkjames/JCS/issues"
+  },
+  "homepage": "https://github.com/Kellenkjames/JCS#readme"
+}

@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "root",
+        "password": "Viviana01",
+        "database": "ClientDirectory",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": "Viviana01",
+        "database": "ClientDirectory",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "divznhqfyj1dxsuz",
+        "password": "yg7051ojqedzmmr6",
+        "database": "ClientDirectory",
+        "host": "l6slz5o3eduzatkw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "dialect": "mysql"
+    }
+}
