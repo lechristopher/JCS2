@@ -1,23 +1,130 @@
-/* // about page */
+/*About Page  */
+
 h1 {
     text-align: center;
 }
- 
+
+h2 {
+    text-align: center;
+}
+
+h3.ui.header {
+    text-align: center;
+}
+
 #map {
     height: 400px;
     width: 100%;
     padding: 5px;
 }
 
+a.active.item {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+div.ui.menu {
+    padding: 20px;
+}
+
+h1.ui.header {
+    color: black;
+}
+
+h2.ui.header {
+    color: black;
+}
+
+h3.ui.header {
+    margin-top: 10%;
+    padding-top: 3%;
+    color: black;
+}
+
+h2.ui.header {
+    color: black;
+    margin-top: 5%;
+    margin-left: 29.5%;
+}
+
+i.plug.icon {
+    margin-top: 35%;
+    color: sandybrown;
+}
+
+a.item {
+    text-decoration-color: white;
+    font-size: 16px;
+}
+
+div.content {
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
+
+div.ui.card {
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+#inquiry {
+    text-align: center;
+}
+
+div.nine.wide.column {
+    margin-top: -2%;
+}
+
+a.active.item {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+div.ui.menu {
+    padding: 20px;
+}
+
+div.nine.wide.column {
+    margin-top: -2%;
+}
+
+div.six.wide.column {
+    margin-left: 5%
+}
+
+
+/* // about page */
+
+h1 {
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    padding: 5px;
+}
+
+
 /*footer  */
+
 div.ui.inverted.vertical.footer.segment {
     /* margin-left: 15%; */
     text-align: center;
-}   
+}
 
-div.six.wide.column{
+div.six.wide.column {
     margin-left: 5%
 }
+
 #confimation {
     text-align: center;
 }
@@ -39,10 +146,12 @@ div.six.wide.column{
 ui.container {
     align-content: center;
 }
+
 div.ui.text.container {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 .hidden.menu {
     display: none;
 }
@@ -69,51 +178,28 @@ div.ui.text.container {
 
 .masthead .ui.inverted.header {
     margin-top: .5em;
-} 
+}
 
 .masthead h1.ui.header {
-    margin-top: .02em; 
-    font-family: "Avant Garde", Avantgarde,
-     "Century Gothic", CenturyGothic,
-     "AppleGothic", sans-serif;
-     font-size: 70px;
-     padding: 80px 50px;
-     text-align: center;
-     text-transform: uppercase;
-     text-rendering: optimizeLegibility;
-     color: #e0dfdc;
-      background-color: #333;
-      box-shadow: 0px 0px 5px #fff;
-      letter-spacing: .1em;
-      text-shadow : 0 -1px 0 #fff,
-      0 1px 0 #2e2e2e,
-      0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a,
-      0 4px 0 #282828,
-      0 5px 0 #262626,
-      0 6px 0 #242424,
-      0 7px 0 #222,
-      0 8px 0 #202020,
-      0 9px 0 #1e1e1e,
-      0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a,
-      0 12px 0 #181818,
-      0 13px 0 #161616,
-      0 14px 0 #141414,
-      0 15px 0 #121212,
-      0 22px 30px rgba(0, 0, 0, 0.9);
-      
+    margin-top: .02em;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 70px;
+    padding: 80px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #e0dfdc;
+    background-color: #333;
+    box-shadow: 0px 0px 5px #fff;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
 .masthead h2 {
-    font-family: 
-    "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 1.5em; 
-    text-shadow: 0px -2px 0px #333,
-    0px 2px 3px #666;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0px -2px 0px #333, 0px 2px 3px #666;
 }
-
-
 
 .ui.vertical.stripe {
     padding: 8em 0em;
@@ -163,11 +249,12 @@ div.row.services.text {
 
 .footer.segment {
     padding: 5em 0em;
-}   
+}
 
 .secondary.pointing.menu .toc.item {
     display: none;
 }
+
 
 /* CONTACT PAGE */
 
@@ -207,8 +294,7 @@ label#message {
 }
 
 div.inline.fields {
-   margin-left: 30%;
-
+    margin-left: 30%;
 }
 
 #phone1 {
@@ -238,7 +324,4 @@ div.inline.fields {
         margin-top: 0.5em;
         font-size: 1.5em;
     }
-
-    
-
 }

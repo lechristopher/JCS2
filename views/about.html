@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -8,107 +7,127 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/assets/style.css">
 
-    <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/style.css">
+    <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
 
-    <script src="/semantic/dist/components/visibility.js"></script>
-    <script src="/semantic/dist/components/sidebar.js"></script>
-    <script src="/semantic/dist/components/transition.js"></script>
+    <script src="../semantic/dist/components/visibility.js"></script>
+    <script src="../semantic/dist/components/sidebar.js"></script>
+    <script src="../semantic/dist/components/transition.js"></script>
+
 </head>
 
 <body>
-    <h1>Jamison Computer Services</h1>
 
-    <!-- Page Contents -->
-     <div class="pusher"> 
-         <div class="ui inverted vertical masthead center aligned segment"> 
-            <div class="ui container">
-                <div class="ui large secondary inverted pointing menu">
-                    <a class="toc item">
-                  <i class="sidebar icon"></i>
-               </a>
-                    <a href="/" class="active item">Home</a>
-                    <a href="/contact" class="item">Contact Us</a>
-
-                </div>
-            </div>
-
-            <div class="ui text container">
-                <h1 class="ui inverted header">
-                    About Us
-                </h1>
-                <h2>Family Owned and Operated</h2>
-                <h2>Reliable, Personal, Exceptional</h2>
-
-            </div>
+    <div class="ui menu">
+        <div class="header item">
+            Our Company
         </div>
 
+        <a class="item" href="about.html">
+                About
+            </a>
+        <a class="item" href="contact.html">
+                Contact Us
+            </a>
+        <a class="item" href="index.html">
+                Home
+            </a>
+    </div>
 
-        <div class="ui text container">
-            <h3 class="ui header">Who We Are</h3>
-            <p>Jamison Computer Services has been serving thousands of satisfied business and home customers around the Los
-                Angeles Area with fast, reliable, and affordable technology services since 2006. Computers are essential
-                for our everyday lives. Being without a computer for even one day is a day too long. Our goal is to provide
-                the most reliable, prompt, and personal high quality computer repair service for the everyday user.</p>
+    <!-- <header>
+    <button id="btn">Fetch Info for Tech News</button>
+   </header> -->
 
-            <h4 class="ui horizontal header divider">
-                <a href="#">24233 Creekside Rd, Santa Clarita, CA 91355</a>
-            </h4>
-            <h3 class="ui header">Location</h3>
+    <div id="tech-news"></div>
 
-
-            <div id="map"></div>
-            <script>
-                function initMap() {
-                    var uluru = { lat: 34.4222981, lng: -118.5622587 };
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 15,
-                        center: uluru
-                    });
-                    var marker = new google.maps.Marker({
-                        position: uluru,
-                        map: map
-                    });
-                }
-            </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_rUtyLYSPvUjSukWq4JEdrHWLnCn3iSw&callback=initMap">
-
-            </script>
-
+    <h2 class="ui header">
+        <i class="plug icon"></i>
+        <div class="content">
+            Fast, Affordable, Reliable Computer Repair - Onsite or Remote
         </div>
+    </h2>
 
-   <div class="ui inverted vertical footer segment">
+    <div class="ui card">
+        <div class="image">
+            <img id="tom" src="../public/assets/tom_jamison.jpg" alt="Avatar of Tom Jamison">
+        </div>
+        <div class="content">
+            <div class="header">Tom Jamison</div>
+            <div class="meta">
+                <span class="date">Joined in 2006</span>
+            </div>
+            <div class="description">
+                Experienced IT professional with an amazing staff. Can solve just about any computer problem while delivering outstanding customer experience.
+            </div>
+        </div>
+        <div class="extra content">
+            <a>
+                <i class="user icon"></i> 1000+ clients
+            </a>
+        </div>
+    </div>
+
+    <div class="ui text container">
+        <h3 class="ui header">Who We Are</h3>
+        <p>Jamison Computer Services has been serving thousands of satisfied business and home customers around the Los Angeles Area with fast, reliable, and affordable technology services since 2006. Computers are essential for our everyday lives. Being
+            without a computer for even one day is a day too long. Our goal is to provide the most reliable, prompt, and personal high quality computer repair service for the everyday user.</p><br>
+
+        <p id="inquiry">Please see our address below and let us know how we can solve your computer needs.</p>
+
+        <h4 class="ui horizontal header divider">
+            <a href="https://www.google.com/maps/place/24233+Creekside+Rd,+Santa+Clarita,+CA+91355/@34.4222981,-118.5622587,17z/data=!3m1!4b1!4m5!3m4!1s0x80c287417cb7b711:0xfba6ecbdd328d522!8m2!3d34.4222981!4d-118.56007">24233 Creekside Rd, Santa Clarita, CA 91355</a>
+        </h4>
+        <h3 class="ui header">Location</h3>
+
+
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 34.4222981,
+                    lng: -118.5622587
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 15,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_rUtyLYSPvUjSukWq4JEdrHWLnCn3iSw&callback=initMap">
+        </script>
+
+    </div>
+
+    <div class="ui inverted vertical footer segment">
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable grid">
                 <div class="six wide column">
-                    <h4 class="ui inverted header">About</h4>
                     <div class="ui inverted link list">
-                        <a href="/about" class="item">About</a>
+                        <a href="/home" class="item">Home</a><br>
                         <a href="/contact" class="item">Contact Us</a>
                     </div>
                 </div>
-                <!-- <div class="three wide column">
-                    <h4 class="ui inverted header"></h4>
-                    <div class="ui inverted link list">
-                    </div>
-                </div> -->
+
                 <div class="nine wide column">
                     <h3 class="ui inverted header">Find us on Social</h3>
-
                     <a href="https://www.facebook.com/ComputerRepairSantaClarita/" class="ui facebook button"><i class="facebook icon"></i>Facebook</a>
                     <a href="https://plus.google.com/107678983853979539182?gl=US&hl=en-US" class="ui google plus button"><i class="google plus icon"></i>Google Plus</a>
-
                 </div>
             </div>
         </div>
     </div>
-  </div>
 
-    <script src="/assets/app.js"></script>
+    <script src="../public/assets/app.js"></script>
+
 </body>
 
 </html>
